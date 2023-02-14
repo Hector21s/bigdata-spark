@@ -5,11 +5,13 @@ using namespace  std;
 
 int main() {
 // prints the string enclosed in double quotes 
+  int firstnumber, secondnumber, sum;
 
-  int first_number, second_number, sum;
+cout << "Ingresa los numeros: ";
+cin >> firstnumber >> secondnumber;
 
-cout << "Ingresa dos numeros: ";
-cin >> sumber;
-cout << "Tu numero es " << number; 
+
+sum= firstnumber + secondnumber;
+cout << firstnumber <<  "+" << secondnumber << "=" << sum ; 
 return 0;
 }
